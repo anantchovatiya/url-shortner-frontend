@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 import axios from 'axios';
 
 const serverLocal = "https://url-shortner-backend-f6hz.onrender.com";
-const serverBaseUrl = import.meta.env.VITE_APP_URI;
+const serverBaseUrl = "https://url-shortner-backend-f6hz.onrender.com";
 axios.defaults.baseURL = serverBaseUrl;
 
 ReactDOM.createRoot(document.getElementById('root')).render(
