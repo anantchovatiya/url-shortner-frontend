@@ -26,7 +26,7 @@ export const InputForm = () => {
     const [ isLoading, setIsloading ] = useState(false);
     const [ isError, setIsError ] = useState(false);
     const { hasCopied, onCopy } = useClipboard(url);
-    const clientBaseUrl = "https://url-shortner-backend-f6hz.onrender.com";
+    const clientBaseUrl = "https://url-shortner-backend-f6hz.onrender.com/";
 
     const handleInputChange = (e) => {
         const { id, value } = e.target;
