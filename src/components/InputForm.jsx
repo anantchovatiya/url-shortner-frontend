@@ -88,7 +88,7 @@ export const InputForm = () => {
             </FormControl>
             <FormLabel mt={ 7 } fontSize='md'>Create personalized and memorable links for your URLs (Optional)</FormLabel>
             <InputGroup size='md' className={ styles.InputGroup }>
-                <InputLeftAddon children={ `${clientBaseUrl}` } className={ styles.BaseUrlAddon } w='50%' />
+                <InputLeftAddon children={ `${clientBaseUrl}` } className={ styles.BaseUrlAddon } w='70%' />
                 <Input placeholder='your personalized code ' id="urlCode"
                     type="text"
                     value={ input.urlCode }
